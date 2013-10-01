@@ -1,5 +1,5 @@
 #!/bin/sh
-export PYTHONPATH="./"
+export PYTHONPATH="$PYTHONPATH:./"
 export DJANGO_SETTINGS_MODULE='settings'
 
 if [ `which django-admin.py` ] ; then

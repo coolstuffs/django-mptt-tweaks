@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.contrib.auth.models import Group
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
+from mptt.compat import python_2_unicode_compatible
 
 import mptt
 from mptt.models import MPTTModel, TreeForeignKey

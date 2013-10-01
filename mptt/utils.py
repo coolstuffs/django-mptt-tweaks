@@ -8,8 +8,11 @@ import csv
 import itertools
 import sys
 
-from django.utils.six import next, text_type
-from django.utils.six.moves import zip
+import mptt
+from mptt.compat import six
+next = six.next
+text_type = six.text_type
+zip = six.moves.zip
 
 __all__ = ('previous_current_next', 'tree_item_iterator',
            'drilldown_tree_for_node')

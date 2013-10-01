@@ -12,7 +12,7 @@ from django.db.models import get_models
 from django.forms.models import modelform_factory
 from django.template import Template, Context
 from django.test import TestCase
-from django.utils.six import string_types, PY3, b
+from six import string_types, PY3, b
 
 try:
     import feincms
