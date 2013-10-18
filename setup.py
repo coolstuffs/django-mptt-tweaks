@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from mptt import VERSION
 
-requires=('Django>=1.4.2',)
+requires=('Django>=1.3',)
 try:
     from setuptools import setup
     kwargs ={'install_requires': requires}
